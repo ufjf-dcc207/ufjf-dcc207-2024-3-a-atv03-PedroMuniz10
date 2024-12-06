@@ -1,0 +1,21 @@
+.exibicao {
+    display: grid;
+    grid-template-areas: "cercado inicio fim";
+    padding: 1em;
+    box-shadow: 0.1em 0.2em 0.2em;
+
+    .inicio {
+        color: darkgreen;
+        grid-area: inicio;
+    }
+
+    .fim {
+        color: darkred;
+        grid-area: inicio;
+    }
+
+    .local {
+        font-size: bold;
+        grid-area: cercado;
+    }
+}
