@@ -1,7 +1,7 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Arial, Helvetica, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  place-content: center;
-  min-height: 100vh;
+  place-content: center;  /* centraliza o conteúdo dentro da raiz */
+  min-height: 100vh;  /* elemento raiz ocupa pelo menos a altura total da tela */
 }
