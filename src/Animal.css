@@ -11,24 +11,24 @@
     "icone . extincao";
 }
 
-.animal :nth-child(1) {
+.animal .icone {
     grid-area: icone;
     place-content: center;
     font-size: 4em;
 }
 
-.animal :nth-child(2) {
+.animal .nome {
     grid-area: nome;
     font-weight: 900;
     font-variant: small-caps;
 }
 
-.animal :nth-child(3) {
+.animal .peso {
     grid-area: peso;
     color: grey;
 }
 
-.animal :nth-child(4) {
+.animal .extincao {
     grid-area: extincao;
     text-transform: uppercase;
     background-color: darkred;
