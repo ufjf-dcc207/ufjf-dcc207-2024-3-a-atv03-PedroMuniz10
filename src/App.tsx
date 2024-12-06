@@ -3,7 +3,7 @@ import Animal from "./Animal";
 
 
 function App(){
-  return <div className="app">Olá Mundo!
+  return <div className="app">
     <Animal />
   </div>
 }
